@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CDN link for CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CDN link for AOS CSS-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- <h2>hi this is me again!!!</h2> -->
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="left" data-aos="zoom-out"><h3><i>Mayuri</i></h3></div>
+        <div class="right">
+            <a href="#hero">HOME</a>
+            <a href="#aboutsection">ABOUT</a>
+            <a href="#resume">RESUME</a>
+            <a href="#work">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-text" data-aos="zoom-out-up">
+            <h1>
+                CHALLENGING THE LIMIT OF 
+                <span class="gray">VISUAL COMFORT</span>,
+                FEEDING THE INHERIT DRIVE TO 
+                <span class="orange">CREATE.</span>
+            </h1>
+
+            <p class="subtext">
+                Focused on frontend development, IoT projects, and turning ideas into practical solutions.
+            </p>
+
+            <button class="about-btn" id="aboutmeee" data-aos="zoom-out"><a href="./about_me.html">About me</a></button>
+        </div>
+
+        <div class="photo" >
+            <h3 class="title" data-aos="zoom-out"><b>Mayuri Chitupe</b></h3>
+            <p data-aos="zoom-out">A frontend developer</p>
+            <img src="./images/cafe2.jpg" alt="Profile" class="hero-image">
+        </div>
+    </section>
+
+    <!-- about section -->
+<section class="about-section" id="aboutsection" >
+    <h1 class="heading" data-aos="zoom-out">About</h1>
+    <div class="underlineAbout"></div>
+    <p class="sub-heading" data-aos="zoom-out">Engineering student with a passion for building smart solutions and exploring technology one step at a time</p>
+
+    <div class="about-container">
+
+    <!-- left Content -->
+    <div class="about-content" data-aos="zoom-in">
+        <h2 >Frontend Web Developer.</h2>
+          <div class="info-grid">
+
+            <ul>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Birthday:</strong> <span>24 Jul 2004</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Phone:</strong> <span>8767905580</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>City:</strong> <span>Pune, INDIA</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>College:</strong> <span>PES MCOE</span></li>
+            </ul>
+
+            <ul>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of engineering</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Email:</strong> <span>mayurichitupe@gmail.com</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>Branch:</strong> <span>Electronics & Computer Engg</span></li>
+              <li><i class="fa-solid fa-chevron-right"></i> <strong>University:</strong> <span>SPPU</span></li>
+            </ul>
+
+            </div>
+
+     <p class="bottom-text" data-aos="zoom-in">
+       I am a frontend web developer with a strong interest in IoT-based solutions and creative technology.I enjoy building interactive and user-cen applications that are simple, clean, and meaningful. With every project, I focus on learning, improving, and converting ideas into real working systems. 
+       My goal is to continue exploring modern tech while contributing to impactful digital solutions.
+     </p>
+    </div>
+
+        <!-- right Image -->
+        <div class="about-img" data-aos="zoom-out">
+            <img src="./images/m4.jpg" alt="Profile Image"><br><br>
+
+            <div class="downloadd-tag" onclick="downloadResume()" data-aos="zoom-out">
+                Download Resume
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- skill-section -->
+ <section class="skills-section" id="skills">
+    <h2 class="skills-title" data-aos="zoom-out">Skills</h2>
+    <div class="underline"></div>
+    <p class="skills-subtitle" data-aos="zoom-out">
+        the fields that i am interested in !!!
+    </p>
+
+    <div class="skills-container">
+
+        <!-- LEFT COLUMN -->
+        <div class="skills-column" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
+            <div class="skill-box">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percent">100%</span>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="100"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percent">95%</span>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="95"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">75%</span>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="75"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="skills-column" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+
+            <div class="skill-box">
+                <span class="skill-name">PHP</span>
+                <span class="skill-percent">40%</span>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="40"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="skill-name">WordPress/CMS</span>
+                <span class="skill-percent">50%</span>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="50"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="skill-name">Photoshop</span>
+                <span class="skill-percent">55%</span>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="55"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- workkkk -->
+ <section class="services section" id="work">
+    <div class="resume-title">
+    <h2 data-aos="zoom-out">Work</h2>
+    <div class="underlinework"></div>
+  <div class="container">
+
+    <div class="services-grid">
+
+      <!-- Service 1 -->
+      <div class="service-card" id="project" data-aos="zoom-in">
+            <a href="./projects.html" target="_blank">
+        <i class="fa-solid fa-newspaper service-icon"></i>
+        <h3>Projects</h3>
+        <div class="underlineService"></div><br>
+        <p >Innovative projects built using Web + IoT + Logic.</p>
+        </a>
+      </div>
+
+      <!-- service 2 -->
+      <div class="service-card" id="internship" data-aos="zoom-in">
+            <a href="./internship.html" target="_blank">
+        <i class="fa-solid fa-newspaper service-icon"></i>
+        <h3>Internship</h3>
+        <div class="underlineService"></div><br>
+        <p>Practical work that improved my skills and thinking.</p>
+        </a>
+      </div>
+
+      <!-- Service 3-->
+      <div class="service-card" data-aos="zoom-in">
+        <div id="photography">
+            <a href="./photography.html" target="_blank">
+        <i class="fa-solid fa-camera service-icon"></i>
+        <h3>Photography</h3>
+        <div class="underlineService"></div><br>
+        <p>A space where I express my vision and explore creativity through the lens.</p>
+        </div></a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- resumeee -->
+<section id="resume" class="resume">
+  <div class="resume-title">
+    <h2 data-aos="zoom-out">Resume</h2>
+    <div class="underlineresume"></div>
+    <p data-aos="zoom-out">Focused on learning, building, and continuously improving through practical experience.</p>
+  </div>
+
+  <div class="resume-container" data-aos="zoom-in">
+
+    <!-- LEFT COLUMN -->
+    <div class="resume-left">
+
+      <!-- SUMMARY -->
+      <div class="resume-block">
+        <h3 class="resume-heading">Summary</h3>
+
+        <div class="resume-item">
+          <span class="circle"></span>
+          <h4>Mayuri Chitupe</h4>
+          <p class="italic">
+            Engineering student with an interest in frontend development and IoT-based projects,
+            focused on creating practical, user-friendly solutions while continuously learning.
+          </p>
+          <ul>
+            <li>Latur, Maharashtra, India</li>
+            <li>Email: mayurichitupe@email.com</li>
+            <li>Portfolio / GitHub link</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="resume-block">
+        <h3 class="resume-heading">Education</h3>
+
+        <div class="resume-item">
+          <span class="circle"></span>
+          <h4>Bachelor of Engineering</h4>
+          <h5>Electronics & Computer Engineering</h5>
+          <span class="year">2021 – Present</span>
+          <p>Modern College of Engineering, Pune</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="resume-right">
+
+      <!-- EXPERIENCE / PROJECTS -->
+      <div class="resume-block">
+        <h3 class="resume-heading">Projects & Experience</h3>
+
+        <div class="resume-item">
+          <span class="circle"></span>
+          <h4>Frontend Development Projects</h4>
+          <p class="italic">HTML, CSS, JavaScript</p>
+          <ul>
+            <li>Designed responsive and user-friendly web interfaces</li>
+            <li>Worked on personal portfolio and mini frontend projects</li>
+            <li>Focused on clean UI and usability</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <span class="circle"></span>
+          <h4>IoT-Based Projects</h4>
+          <ul>
+            <li>Saline Level Monitoring System</li>
+            <li>Virtual Fitness Trainer</li>
+            <li>Abstract Monitoring System</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- contact pageeee -->
+<section class="contact-section" id="contact">
+  <div class="container">
+
+    <div class="contact-grid">
+
+      <!-- Left: Contact Form -->
+      <div class="contact-form">
+
+        <h2 data-aos="zoom-out"><b>Let’s Start a Conversation</b></h2>
+        <div class="underlinecontact"></div><br>
+        <p class="contact-desc" data-aos="zoom-out">
+          Reach out anytime — I’m available for tech discussions, freelance work,
+          or opportunities related to web development and IoT projects.
+        </p>
+
+        <form data-aos="zoom-in">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>NAME</label>
+              <input type="text" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+              <label>EMAIL</label>
+              <input type="email" placeholder="Your Email">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>PHONE</label>
+              <input type="text" placeholder="Your Phone">
+            </div>
+
+            <div class="form-group">
+              <label>SUBJECT</label>
+              <input type="text" placeholder="Subject">
+            </div>
+          </div>
+
+          <div class="form-group full-width">
+            <label>MESSAGE</label>
+            <textarea rows="5" placeholder="Tell us about your project"></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+
+        </form>
+
+      </div>
+
+      <!-- Right: Info -->
+      <div class="contact-info" data-aos="zoom-out">
+
+        <h3>Get in Touch</h3>
+        <p>
+          Reach out to me through email or phone — I’ll get back soon.
+        </p>
+
+        <div class="info-item">
+          <div>
+            <strong>ADDRESS</strong><br>
+            Modern Girl's Hostel,JM Road,Shivaji Nagar,Pune.
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div>
+            <strong>EMAIL</strong><br>
+            <a href="mailto:mayurichitupe@gmail.com">mayurichitupe@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div>
+            <strong>LinkedIn</strong><br>
+            <a href="https://www.linkedin.com/in/mayuri-chitupe-822869297?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKLjDOrl7TISbTC2tbAz7lw%3D%3D">www.linkedin.com/mayuri-chitupe</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div>
+            <strong>CONTACT No.</strong><br>
+            8767905580
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Scroll to top button (HTML only) -->
+  <a href="#top" class="top-btn">&uarr;</a>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2025 Mayuri Chitupe | All Rights Reserved <br>
+    Feel free to reach out if you have any questions <br>
+    <a href="mailto:mayurichitupe@gmail.com">PING ME</a>
+
+  </p>
+</footer>
+
+
+
+
+
+<!-- CDN link for JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+<!-- Custom JavaScript -->
+<script src="script.js"></script>
+
+<!-- CDN link for AOS JS -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <!-- To initialize it -->
+ <script>
+  AOS.init();
+</script>
+
+
+</body>
+</html>

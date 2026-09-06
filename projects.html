@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <style>
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.project-section {
+    text-align: center;
+    padding: 60px 80px;
+    background-color: rgba(235, 234, 234, 0.877);
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.underlineproject {
+    width: 60px;
+    height: 4px;
+    background: #e05008;
+    margin: 10px auto 20px;
+    border-radius: 50px;
+}
+
+.sub-heading {
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+  .page-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 32px;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Project Section Layout */
+.project-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #eaeaea;
+  transition: 0.3s;
+}
+
+.project-block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-info h2 {
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.project-info p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.project-image {
+  width: 40%;
+}
+
+.project-image img {
+  width: 100%;
+  height: 230px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .project-block {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+  }
+}
+
+/* Scroll to top button */
+.top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #7676745a;
+  color: rgb(17, 17, 17);
+  padding: 12px 14px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s;
+  height: 40px;
+  width: 40px;
+}
+
+.top-btn:hover {
+  background: #22ff00;
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #111;
+  color: #fff;
+}
+
+</style>
+
+<body>     
+
+<section class="project-section" id="projectsection">
+    <h1 class="heading">My Projects</h1>
+    <div class="underlineproject"></div>
+    <p class="sub-heading">Here are some of the projects I’ve worked on recently</p>
+
+  <!-- ================= IoT PROJECTS ================= -->
+
+  <!-- Project 1 -->
+  <div class="project-block" data-aos="zoom-out-down">
+    <div class="project-info">
+      <h2>Saline Level Monitoring System</h2>
+      <p>
+        An IoT-based medical monitoring system that tracks saline levels using a 
+        contactless sensor and ESP32. Alerts are sent via Firebase + IFTTT.
+        The project titled "IoT-Based Saline Water Level Monitoring System using XKC-Y25 Sensor and ESP32" aims to develop a smart, cost-effective, and hygienic solution to monitor saline bottle levels in healthcare settings. Traditional saline monitoring relies on manual observation, which can lead to human error, resulting in potential harm to patients due to delayed action. 
+      </p>
+    </div>
+    <div class="project-image">
+      <img src="./images/salineimg.jpg" alt="Saline Level Monitoring System">
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-block" data-aos="zoom-out-down">
+    <div class="project-info">
+      <h2>Virtual Fitness Trainer</h2>
+      <p>
+        A posture-correcting IoT system using sensors and AI that guides the 
+        user with real-time feedback during workouts.
+        With home-based workouts becoming increasingly popular, one glaring issue seems to be a lack of 
+        real-time, corrective feedback. Most people work out at home without proper form, which could result 
+        in injuries and little effectiveness. This project targets this gap by designing and developing a Real
+        Time Computer Vision-Based Intelligent Fitness Trainer.
+      </p>
+    </div>
+    <div class="project-image">
+      <img src="" alt="Virtual Fitness Trainer img">
+    </div>
+  </div>
+
+  <!-- Project 3
+  <div class="project-block">
+    <div class="project-info">
+      <h2>Abstract Monitoring System</h2>
+      <p>
+        A multi-sensor IoT monitoring system that tracks temperature, humidity, 
+        and gas levels with real-time cloud alerts.
+      </p>
+    </div>
+    <div class="project-image">
+      <img src="abstract.jpg" alt="Abstract Monitoring System">
+    </div>
+  </div> -->
+
+
+  <!-- ================= SOFTWARE PROJECTS ================= -->
+
+  <!-- Project 4 -->
+  <div class="project-block" data-aos="zoom-out-down">
+    <div class="project-info">
+      <h2>Calculator Application</h2>
+      <p>
+        A responsive calculator built using HTML, CSS, and JavaScript supporting 
+        basic arithmetic operations and keyboard input.
+      </p>
+    </div>
+    <div class="project-image">
+      <img src="./images/calculator.jpg" alt="Calculator App">
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="project-block" data-aos="zoom-out-down">
+    <div class="project-info">
+      <h2>To-Do List Application</h2>
+      <p>
+        A simple task management web app where users can add, remove, and store 
+        tasks locally using LocalStorage.
+      </p>
+    </div>
+    <div class="project-image">
+      <img src="./images/to-do -list.jpg" alt="To-Do List App">
+    </div>
+  </div>
+
+</div>
+
+<!-- Scroll to top button (HTML only) -->
+  <a href="#top" class="top-btn">&uarr;</a>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2025 Mayuri Chitupe <br>
+    Have questions about any project? I’d be glad to provide more details. <br>
+    <a href="mailto:mayurichitupe@gmail.com">mayurichitupe@gmail.com</a>
+  </p>
+</footer>
+
+<script>
+// ===================== Smooth Scroll =====================
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", e => {
+        const target = document.querySelector(link.getAttribute("href"));
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth" });
+        }
+    });
+});
+
+// ===================== Scroll-to-top Button =====================
+const topBtn = document.querySelector(".top-btn");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 400) {
+        topBtn.style.opacity = "1";
+        topBtn.style.pointerEvents = "auto";
+    } else {
+        topBtn.style.opacity = "0";
+        topBtn.style.pointerEvents = "none";
+    }
+});
+
+// ===================== Project Fade-in Animation =====================
+const projects = document.querySelectorAll(".project-block");
+
+function revealProjects() {
+    projects.forEach(block => {
+        const pos = block.getBoundingClientRect().top;
+        if (pos < window.innerHeight - 100) {
+            block.classList.add("show-project");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealProjects);
+revealProjects(); // triggers on load
+</script>
+
+
+</body>
+</html>

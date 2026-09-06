@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Gallery</title>
+    <style>
+        
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #dcc89e;
+}
+
+/* Heading section */
+.gallery-heading {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.gallery-heading h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.underlinework{
+    width: 60px;
+    height: 4px;
+    background: #e05008;
+    margin: 10px auto 20px;
+    border-radius: 50px;
+}
+
+.gallery-heading p {
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Gallery grid */
+.gallery-container {
+    width: 90%;
+    margin: auto;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+    </style>
+</head>
+<body>
+
+    <section class="gallery-heading">
+        <h1>My Photography Gallery</h1>
+        <div class="underlinework"></div>
+        <p>Capturing moments, emotions, and stories through my lens.</p>
+    </section>
+
+    <section class="gallery-container">
+        <!-- Add your 40 images here -->
+        <div class="gallery-grid" data-aos="zoom-out-down">
+            <img src="./images/1.jpg" alt="">
+            <img src="images/2.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/4.jpg" alt="">
+            <img src="images/5.jpg" alt="">
+            <img src="images/6.jpg" alt="">
+            <img src="images/7.jpg" alt="">
+            <img src="images/8.jpg" alt="">
+            <img src="images/9.jpg" alt="">
+            <img src="images/10.jpg" alt="">
+            <img src="images/11.jpg" alt="">
+            <img src="images/12.jpg" alt="">
+            <img src="images/13.jpg" alt="">
+            <img src="images/14.jpg" alt="">
+            <img src="images/15.jpg" alt="">
+            <img src="images/16.jpg" alt="">
+            <img src="images/17.jpg" alt="">
+            <img src="images/18.jpg" alt="">
+            <img src="images/19.jpg" alt="">
+            <img src="images/20.jpg" alt="">
+            <img src="images/21.jpg" alt="">
+            <img src="images/22.jpg" alt="">
+            <img src="images/23.jpg" alt="">
+            <img src="images/24.jpg" alt="">
+            <img src="images/25.jpg" alt="">
+            <img src="images/266.jpg" alt="">
+            <img src="images/27.jpg" alt="">
+            <img src="images/28.jpg" alt="">
+            <img src="images/29.jpg" alt="">
+            <img src="images/30.jpg" alt="">
+            <img src="images/31.jpg" alt="">
+            <img src="images/32.jpg" alt="">
+            <img src="images/33.jpg" alt="">
+            <img src="images/34.jpg" alt="">
+            <img src="images/35.jpg" alt="">
+            <img src="images/36.jpg" alt="">
+            <img src="images/37.jpg" alt="">
+            <img src="images/38.jpg" alt="">
+            <img src="images/39.jpg" alt="">
+            <img src="images/40.jpg" alt="">
+            <!-- <img src="images/41.jpg" alt=""> -->
+            <img src="images/42.jpg" alt="">
+            <img src="images/43.jpg" alt="">
+        </div>
+    </section>
+
+</body>
+</html>
